@@ -47,13 +47,17 @@ public class PersonController : ControllerBase
         }
 
         var success = _personService.UpdatePerson(id, dto);
-        return success ? Ok($"Person with id {id} deleted.") : NotFound($"Person with id {id} not found.");
+        return success 
+            ? Ok(new { message = $"Person deleted." }) 
+            : NotFound(new { message = $"Person not found." });
     }
 
     [HttpDelete("{id}")]
     public IActionResult DeletePerson(Guid id) 
     {
         var success = _personService.DeletePerson(id);
-        return success ? Ok($"Person with id {id} deleted.") : NotFound($"Person with id {id} not found.");
+        return success 
+            ? Ok(new { message = $"Person deleted." }) 
+            : NotFound(new { message = $"Person not found." });
     }
 }
