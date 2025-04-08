@@ -1,19 +1,16 @@
 using MySecondAPI.Domain.Entities;
+using MySecondAPI.Infrastructure.SeedData;
 using MySecondAPI.Application.Interfaces.Repositories;
 
 namespace MySecondAPI.Infrastructure.Repositories;
 
 public class PersonRepository : IPersonRepository {
-    private readonly List<Person> _people = new() {
-        new Person {
-            FirstName = "Minh",
-            LastName = "Nguyen",
-            DateOfBirth = new DateOnly(2003, 1, 1),
-            Gender = Domain.Enums.Gender.Male,
-            BirthPlace = "Hanoi"
-        }
-    };
+    private readonly List<Person> _people;
 
+    public PersonRepository() {
+        _people = PersonSeed.GetPreconfiguredPeople();
+    }
+    
     public IEnumerable<Person> GetAllPerson() => _people;
 
     public Person? GetPersonById(Guid id) => _people.FirstOrDefault(p => p.Id == id);
