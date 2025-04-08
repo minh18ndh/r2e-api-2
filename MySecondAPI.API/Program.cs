@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(typeof(PersonMappingProfile).Assembly);
-builder.Services.AddScoped<IPersonRepository, PersonRepository>();
+builder.Services.AddSingleton<IPersonRepository, PersonRepository>();
 builder.Services.AddScoped<IPersonService, PersonService>();
 
 var app = builder.Build();
