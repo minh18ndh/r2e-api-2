@@ -4,8 +4,10 @@ using MySecondAPI.Domain.Entities;
 
 namespace MySecondAPI.Application.Mappings;
 
-public class PersonMappingProfile : Profile {
-    public PersonMappingProfile() {
+public class PersonMappingProfile : Profile 
+{
+    public PersonMappingProfile() 
+    {
         // Map CreateDto to Person (used when creating)
         CreateMap<PersonCreateDto, Person>();
 

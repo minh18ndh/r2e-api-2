@@ -4,10 +4,12 @@ using MySecondAPI.Application.Interfaces.Repositories;
 
 namespace MySecondAPI.Infrastructure.Repositories;
 
-public class PersonRepository : IPersonRepository {
+public class PersonRepository : IPersonRepository 
+{
     private readonly List<Person> _people;
 
-    public PersonRepository() {
+    public PersonRepository() 
+    {
         _people = PersonSeed.GetPreconfiguredPeople();
     }
     
@@ -15,12 +17,14 @@ public class PersonRepository : IPersonRepository {
 
     public Person? GetPersonById(Guid id) => _people.FirstOrDefault(p => p.Id == id);
 
-    public Person AddPerson(Person person) {
+    public Person AddPerson(Person person) 
+    {
         _people.Add(person);
         return person;
     }
 
-    public bool UpdatePerson(Person person) {
+    public bool UpdatePerson(Person person) 
+    {
         var index = _people.FindIndex(p => p.Id == person.Id);
         if (index == -1) return false;
 
@@ -28,7 +32,8 @@ public class PersonRepository : IPersonRepository {
         return true;
     }
 
-    public bool DeletePerson(Guid id) {
+    public bool DeletePerson(Guid id) 
+    {
         var person = GetPersonById(id);
         if (person == null) return false;
 

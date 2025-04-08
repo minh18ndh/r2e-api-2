@@ -7,10 +7,12 @@ namespace MySecondAPI.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class PersonController : ControllerBase {
+public class PersonController : ControllerBase 
+{
     private readonly IPersonService _personService;
 
-    public PersonController(IPersonService personService) {
+    public PersonController(IPersonService personService) 
+    {
         _personService = personService;
     }
 
@@ -25,7 +27,8 @@ public class PersonController : ControllerBase {
     }
 
     [HttpPost]
-    public IActionResult AddPerson([FromBody] PersonCreateDto? dto) {
+    public IActionResult AddPerson([FromBody] PersonCreateDto? dto) 
+    {
         if (dto == null || !ModelState.IsValid)
         {
             return BadRequest(ModelState);
@@ -36,7 +39,8 @@ public class PersonController : ControllerBase {
     }
 
     [HttpPut("{id}")]
-    public IActionResult UpdatePerson(Guid id, [FromBody] PersonUpdateDto? dto) {
+    public IActionResult UpdatePerson(Guid id, [FromBody] PersonUpdateDto? dto) 
+    {
         if (dto == null || !ModelState.IsValid)
         {
             return BadRequest(ModelState);
@@ -47,7 +51,8 @@ public class PersonController : ControllerBase {
     }
 
     [HttpDelete("{id}")]
-    public IActionResult DeletePerson(Guid id) {
+    public IActionResult DeletePerson(Guid id) 
+    {
         var success = _personService.DeletePerson(id);
         return success ? Ok() : NotFound();
     }

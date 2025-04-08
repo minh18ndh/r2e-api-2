@@ -1,6 +1,7 @@
 namespace MySecondAPI.Domain.Enums;
 
-public enum Gender {
+public enum Gender 
+{
     Male,
     Female,
     Other

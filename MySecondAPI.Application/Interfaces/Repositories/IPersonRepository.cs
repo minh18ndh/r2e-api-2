@@ -2,7 +2,8 @@ using MySecondAPI.Domain.Entities;
 
 namespace MySecondAPI.Application.Interfaces.Repositories;
 
-public interface IPersonRepository {
+public interface IPersonRepository 
+{
     IEnumerable<Person> GetAllPerson();
     Person? GetPersonById(Guid id);
     Person? AddPerson(Person person);

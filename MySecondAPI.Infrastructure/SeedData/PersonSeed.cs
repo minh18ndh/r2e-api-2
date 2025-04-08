@@ -3,10 +3,14 @@ using MySecondAPI.Domain.Enums;
 
 namespace MySecondAPI.Infrastructure.SeedData;
 
-public static class PersonSeed {
-    public static List<Person> GetPreconfiguredPeople() {
-        return new List<Person> {
-            new Person {
+public static class PersonSeed 
+{
+    public static List<Person> GetPreconfiguredPeople() 
+    {
+        return new List<Person> 
+        {
+            new Person 
+            {
                 Id = Guid.NewGuid(),
                 FirstName = "Kiet",
                 LastName = "Tran",
@@ -14,7 +18,8 @@ public static class PersonSeed {
                 Gender = Gender.Male,
                 BirthPlace = "Hanoi"
             },
-            new Person {
+            new Person 
+            {
                 Id = Guid.NewGuid(),
                 FirstName = "Minh",
                 LastName = "Nguyen",
@@ -22,7 +27,8 @@ public static class PersonSeed {
                 Gender = Gender.Female,
                 BirthPlace = "Da Nang"
             },
-            new Person {
+            new Person 
+            {
                 Id = Guid.NewGuid(),
                 FirstName = "Paul",
                 LastName = "Smith",

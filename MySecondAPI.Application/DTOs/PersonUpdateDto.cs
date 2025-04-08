@@ -3,7 +3,8 @@ using MySecondAPI.Domain.Enums;
 
 namespace MySecondAPI.Application.DTOs;
 
-public class PersonUpdateDto {
+public class PersonUpdateDto 
+{
     [Required]
     public required string FirstName { get; set; }
 
