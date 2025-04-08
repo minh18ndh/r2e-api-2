@@ -13,8 +13,6 @@ public class PersonMappingProfile : Profile {
         CreateMap<PersonUpdateDto, Person>();
 
         // Map Person to ReadDto (used when returning to client)
-        CreateMap<Person, PersonReadDto>()
-            .ForMember(dest => dest.FullName,
-                       opt => opt.MapFrom(src => $"{src.FirstName} {src.LastName}"));
+        CreateMap<Person, PersonReadDto>();
     }
 }

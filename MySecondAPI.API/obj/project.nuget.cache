@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X/MAXPaOxaQ=",
+  "dgSpecHash": "Zx90DW0IbVU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.API\\MySecondAPI.API.csproj",
+  "projectFilePath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.API\\MySecondAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minhn\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\minhn\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

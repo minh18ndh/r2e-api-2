@@ -1,39 +1,45 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.API\\MySecondAPI.API.csproj": {}
+    "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.API\\MySecondAPI.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.API\\MySecondAPI.API.csproj": {
+    "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.API\\MySecondAPI.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.API\\MySecondAPI.API.csproj",
+        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.API\\MySecondAPI.API.csproj",
         "projectName": "MySecondAPI.API",
-        "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.API\\MySecondAPI.API.csproj",
+        "projectPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.API\\MySecondAPI.API.csproj",
         "packagesPath": "C:\\Users\\minhn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.API\\obj\\",
+        "outputPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj": {
-                "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj"
+              "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj"
               },
-              "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj"
+              "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj"
               },
-              "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Infrastructure\\MySecondAPI.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Infrastructure\\MySecondAPI.Infrastructure.csproj"
+              "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Infrastructure\\MySecondAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Infrastructure\\MySecondAPI.Infrastructure.csproj"
               }
             }
           }
@@ -47,7 +53,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -89,34 +96,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj": {
+    "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj",
+        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj",
         "projectName": "MySecondAPI.Application",
-        "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj",
+        "projectPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj",
         "packagesPath": "C:\\Users\\minhn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Application\\obj\\",
+        "outputPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj"
+              "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj"
               }
             }
           }
@@ -130,7 +143,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -157,26 +171,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj": {
+    "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj",
         "projectName": "MySecondAPI.Domain",
-        "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj",
+        "projectPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\minhn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -194,7 +214,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -215,37 +236,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Infrastructure\\MySecondAPI.Infrastructure.csproj": {
+    "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Infrastructure\\MySecondAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Infrastructure\\MySecondAPI.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Infrastructure\\MySecondAPI.Infrastructure.csproj",
         "projectName": "MySecondAPI.Infrastructure",
-        "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Infrastructure\\MySecondAPI.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Infrastructure\\MySecondAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\minhn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj": {
-                "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj"
+              "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Application\\MySecondAPI.Application.csproj"
               },
-              "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj"
+              "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\minhn\\Downloads\\R2E assignments\\r2e-api-2\\MySecondAPI.Domain\\MySecondAPI.Domain.csproj"
               }
             }
           }
@@ -259,7 +286,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -280,7 +308,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

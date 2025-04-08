@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "7rZiUF/Zo16DMPnuxp1cgFOxmj3UPOyWcwRzIVlaKWk=",
+  "Hash": "G1lAVVJKFCml/ThXrUW7poUAc349uUZ4RVDOBVs7obc=",
   "Source": "MySecondAPI.API",
   "BasePath": "_content/MySecondAPI.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

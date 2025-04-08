@@ -16,3 +16,21 @@ C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\M
 C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\refint\MySecondAPI.Infrastructure.dll
 C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\MySecondAPI.Infrastructure.pdb
 C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\ref\MySecondAPI.Infrastructure.dll
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\bin\Debug\net8.0\MySecondAPI.Infrastructure.deps.json
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\bin\Debug\net8.0\MySecondAPI.Infrastructure.dll
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\bin\Debug\net8.0\MySecondAPI.Infrastructure.pdb
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\bin\Debug\net8.0\MySecondAPI.Application.dll
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\bin\Debug\net8.0\MySecondAPI.Domain.dll
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\bin\Debug\net8.0\MySecondAPI.Application.pdb
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\bin\Debug\net8.0\MySecondAPI.Domain.pdb
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\MySecondAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\MySecondAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\MySecondAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\MySecondAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\MySecondAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\MySecondAPI.Infrastructure.sourcelink.json
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\MySecond.6043E7CD.Up2Date
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\MySecondAPI.Infrastructure.dll
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\refint\MySecondAPI.Infrastructure.dll
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\MySecondAPI.Infrastructure.pdb
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Infrastructure\obj\Debug\net8.0\ref\MySecondAPI.Infrastructure.dll

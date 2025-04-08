@@ -14,3 +14,19 @@ C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\MySe
 C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\refint\MySecondAPI.Application.dll
 C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\MySecondAPI.Application.pdb
 C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\ref\MySecondAPI.Application.dll
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\bin\Debug\net8.0\MySecondAPI.Application.deps.json
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\bin\Debug\net8.0\MySecondAPI.Application.dll
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\bin\Debug\net8.0\MySecondAPI.Application.pdb
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\bin\Debug\net8.0\MySecondAPI.Domain.dll
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\bin\Debug\net8.0\MySecondAPI.Domain.pdb
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\MySecondAPI.Application.csproj.AssemblyReference.cache
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\MySecondAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\MySecondAPI.Application.AssemblyInfoInputs.cache
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\MySecondAPI.Application.AssemblyInfo.cs
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\MySecondAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\MySecondAPI.Application.sourcelink.json
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\MySecond.445F66D4.Up2Date
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\MySecondAPI.Application.dll
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\refint\MySecondAPI.Application.dll
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\MySecondAPI.Application.pdb
+C:\Users\minhn\Downloads\R2E assignments\r2e-api-2\MySecondAPI.Application\obj\Debug\net8.0\ref\MySecondAPI.Application.dll
