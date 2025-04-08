@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3/tA7AoEa88=",
+  "dgSpecHash": "XwYXl+yq950=",
   "success": true,
   "projectFilePath": "C:\\Users\\minhn\\Downloads\\r2e-api-2\\MySecondAPI.Infrastructure\\MySecondAPI.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\minhn\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,12 @@
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\bin\Debug\net8.0\MySecondAPI.Domain.deps.json
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\bin\Debug\net8.0\MySecondAPI.Domain.dll
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\bin\Debug\net8.0\MySecondAPI.Domain.pdb
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\obj\Debug\net8.0\MySecondAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\obj\Debug\net8.0\MySecondAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\obj\Debug\net8.0\MySecondAPI.Domain.AssemblyInfo.cs
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\obj\Debug\net8.0\MySecondAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\obj\Debug\net8.0\MySecondAPI.Domain.sourcelink.json
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\obj\Debug\net8.0\MySecondAPI.Domain.dll
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\obj\Debug\net8.0\refint\MySecondAPI.Domain.dll
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\obj\Debug\net8.0\MySecondAPI.Domain.pdb
+C:\Users\minhn\Downloads\r2e-api-2\MySecondAPI.Domain\obj\Debug\net8.0\ref\MySecondAPI.Domain.dll

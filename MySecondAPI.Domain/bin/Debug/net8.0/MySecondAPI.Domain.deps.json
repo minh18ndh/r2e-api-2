@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MySecondAPI.Domain/1.0.0": {
+        "runtime": {
+          "MySecondAPI.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MySecondAPI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
