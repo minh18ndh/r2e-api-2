@@ -14,9 +14,13 @@ public class PersonController : ControllerBase {
         _personService = personService;
     }
 
-    [HttpGet("all")]
-    public IActionResult GetAllPerson() {
-        var result = _personService.GetAllPerson();
+    [HttpGet]
+    public IActionResult GetAllPerson(
+        [FromQuery] string? name,
+        [FromQuery] Gender? gender,
+        [FromQuery] string? birthPlace) 
+    {
+        var result = _personService.GetAllPerson(name, gender, birthPlace);
         return Ok(result);
     }
 
@@ -46,27 +50,5 @@ public class PersonController : ControllerBase {
     public IActionResult DeletePerson(Guid id) {
         var success = _personService.DeletePerson(id);
         return success ? Ok() : NotFound();
-    }
-
-    [HttpGet("filter-by-name")]
-    public IActionResult FilterByName([FromQuery] string name) {
-        if (string.IsNullOrWhiteSpace(name)) return BadRequest("Name cannot be empty.");
-        var result = _personService.FilterPersonByName(name);
-        return Ok(result);
-    }
-
-    [HttpGet("filter-by-gender")]
-    public IActionResult FilterByGender([FromQuery] Gender? gender) {
-        if (gender == null) return BadRequest("Gender is required.");
-
-        var result = _personService.FilterPersonByGender(gender.Value);
-        return Ok(result);
-    }
-
-    [HttpGet("filter-by-birthplace")]
-    public IActionResult FilterByBirthPlace([FromQuery] string birthPlace) {
-        if (string.IsNullOrWhiteSpace(birthPlace)) return BadRequest("Birthplace cannot be empty.");
-        var result = _personService.FilterPersonByBirthPlace(birthPlace);
-        return Ok(result);
     }
 }

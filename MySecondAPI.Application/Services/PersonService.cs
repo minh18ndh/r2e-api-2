@@ -16,10 +16,25 @@ public class PersonService : IPersonService {
         _mapper = mapper;
     }
 
-    public IEnumerable<PersonReadDto> GetAllPerson() {
-        var people = _personRepository.GetAllPerson();
-        return people.Select(p => _mapper.Map<PersonReadDto>(p));
+    public IEnumerable<PersonReadDto> GetAllPerson(string? name, Gender? gender, string? birthPlace) {
+    var query = _personRepository.GetAllPerson().AsQueryable();
+
+    if (!string.IsNullOrWhiteSpace(name)) {
+        query = query.Where(p =>
+            $"{p.FirstName} {p.LastName}".Contains(name));
     }
+
+    if (gender.HasValue) {
+        query = query.Where(p => p.Gender == gender.Value);
+    }
+
+    if (!string.IsNullOrWhiteSpace(birthPlace)) {
+        query = query.Where(p =>
+            p.BirthPlace.Contains(birthPlace, StringComparison.OrdinalIgnoreCase));
+    }
+
+    return query.Select(person => _mapper.Map<PersonReadDto>(person));
+}
 
     public PersonReadDto? AddPerson(PersonCreateDto? dto) {
         if (dto == null) return null;
@@ -43,30 +58,5 @@ public class PersonService : IPersonService {
 
     public bool DeletePerson(Guid id) {
         return _personRepository.DeletePerson(id);
-    }
-
-    public IEnumerable<PersonReadDto> FilterPersonByName(string name) {
-        var result = _personRepository.GetAllPerson()
-            .Where(p => $"{p.FirstName} {p.LastName}"
-                .Contains(name))
-            .Select(p => _mapper.Map<PersonReadDto>(p));
-
-        return result;
-    }
-
-    public IEnumerable<PersonReadDto> FilterPersonByGender(Gender gender) {
-        var result = _personRepository.GetAllPerson()
-            .Where(p => p.Gender == gender)
-            .Select(p => _mapper.Map<PersonReadDto>(p));
-
-        return result;
-    }
-
-    public IEnumerable<PersonReadDto> FilterPersonByBirthPlace(string birthPlace) {
-        var result = _personRepository.GetAllPerson()
-            .Where(p => p.BirthPlace.Contains(birthPlace, StringComparison.OrdinalIgnoreCase))
-            .Select(p => _mapper.Map<PersonReadDto>(p));
-
-        return result;
     }
 }
