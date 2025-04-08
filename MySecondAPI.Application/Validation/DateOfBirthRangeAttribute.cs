@@ -8,7 +8,7 @@ public class DateOfBirthRangeAttribute : ValidationAttribute {
             return dob >= minDate && dob <= maxDate;
         }
 
-        return false; // invalid if not type DateOnly
+        return false;
     }
 
     public override string FormatErrorMessage(string name) {
