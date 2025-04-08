@@ -16,22 +16,9 @@ public class PersonService : IPersonService {
         _mapper = mapper;
     }
 
-    public IEnumerable<PersonReadDto> GetAllPerson(string? name, string? gender, string? birthPlace) {
-        var query = _personRepository.GetAllPerson().AsQueryable();
-
-        if (!string.IsNullOrWhiteSpace(name)) {
-            query = query.Where(p => $"{p.FirstName} {p.LastName}".Contains(name, StringComparison.OrdinalIgnoreCase));
-        }
-
-        if (!string.IsNullOrWhiteSpace(gender) && Enum.TryParse<Gender>(gender, true, out var parsedGender)) {
-            query = query.Where(p => p.Gender == parsedGender);
-        }
-
-        if (!string.IsNullOrWhiteSpace(birthPlace)) {
-            query = query.Where(p => p.BirthPlace.Contains(birthPlace, StringComparison.OrdinalIgnoreCase));
-        }
-
-        return query.Select(person => _mapper.Map<PersonReadDto>(person));
+    public IEnumerable<PersonReadDto> GetAllPerson() {
+        var people = _personRepository.GetAllPerson();
+        return people.Select(p => _mapper.Map<PersonReadDto>(p));
     }
 
     public PersonReadDto? AddPerson(PersonCreateDto? dto) {
@@ -54,8 +41,32 @@ public class PersonService : IPersonService {
         return _personRepository.UpdatePerson(existingPerson);
     }
 
-
     public bool DeletePerson(Guid id) {
         return _personRepository.DeletePerson(id);
+    }
+
+    public IEnumerable<PersonReadDto> FilterPersonByName(string name) {
+        var result = _personRepository.GetAllPerson()
+            .Where(p => $"{p.FirstName} {p.LastName}"
+                .Contains(name))
+            .Select(p => _mapper.Map<PersonReadDto>(p));
+
+        return result;
+    }
+
+    public IEnumerable<PersonReadDto> FilterPersonByGender(Gender gender) {
+        var result = _personRepository.GetAllPerson()
+            .Where(p => p.Gender == gender)
+            .Select(p => _mapper.Map<PersonReadDto>(p));
+
+        return result;
+    }
+
+    public IEnumerable<PersonReadDto> FilterPersonByBirthPlace(string birthPlace) {
+        var result = _personRepository.GetAllPerson()
+            .Where(p => p.BirthPlace.Contains(birthPlace, StringComparison.OrdinalIgnoreCase))
+            .Select(p => _mapper.Map<PersonReadDto>(p));
+
+        return result;
     }
 }
