@@ -12,6 +12,7 @@ public class PersonUpdateDto
     public required string LastName { get; set; }
 
     [Required]
+    [DateOfBirthRange]
     public DateOnly DateOfBirth { get; set; }
 
     [EnumDataType(typeof(Gender))]
